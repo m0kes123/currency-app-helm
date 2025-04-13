@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  currency-app:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-04-13T23:30:10.09956672+03:00"
+    description: A Helm chart for currency-app
+    digest: 52316ea6384c6ecf90e008c0bae56ea411ba24c8d4726f90b0c3f57a6d7efc6c
+    name: currency-app
+    urls:
+    - https://raw.githubusercontent.com/m0kes123/currency-app-helm/main/currency-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-04-13T23:30:10.099233634+03:00"
