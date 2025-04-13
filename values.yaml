@@ -1,0 +1,25 @@
+service:
+  name: currency-service
+  type: ClusterIP
+  port: 8000
+
+app:
+  name: test-release
+  image:
+    repository: m0kes/yadro
+    tag: latest
+    pullPolicy: Always
+  resources:
+    limits:
+      cpu: 500m
+      memory: 384Mi
+    requests:
+      cpu: 250m
+      memory: 192Mi
+
+ingress:
+  enabled: true
+  name: currency-ingress
+  annotations: {}
+  path: /
+  pathType: Prefix
