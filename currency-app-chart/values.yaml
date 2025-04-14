@@ -7,7 +7,7 @@ app:
   name: test-release
   image:
     repository: m0kes/yadro
-    tag: latest
+    tag: ${BUILD_NUMBER}
     pullPolicy: Always
   resources:
     limits:
